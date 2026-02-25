@@ -1,0 +1,4 @@
+edge-tts==7.0.0
+groq
+python-dotenv
+moviepy
