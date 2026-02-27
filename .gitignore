@@ -1,0 +1,5 @@
+# Environment variables for the autoshorts project
+# Virtual environment 
+autoshorts/
+.env
+__pycache__/
