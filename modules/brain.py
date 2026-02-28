@@ -14,7 +14,7 @@ def generate_script(topic):
     Uses Llama 3 via Groq to generate a viral short script.
     Returns a JSON object with 'hook', 'body', and 'visual_keywords'.
     """
-    print(f"🧠 Brainstorming concept for: '{topic}'...")
+    print(f"Brainstorming concept for: '{topic}'...")
 
     system_prompt = """
     You are an expert viral content strategist for YouTube Shorts.
@@ -57,7 +57,7 @@ def generate_script(topic):
         return script_data
 
     except Exception as e:
-        print(f"❌ Brain Error: {e}")
+        print(f"Brain Error: {e}")
         return None
 
 if __name__ == "__main__":
