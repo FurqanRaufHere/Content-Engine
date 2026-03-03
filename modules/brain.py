@@ -62,4 +62,5 @@ def generate_script(topic):
 
 if __name__ == "__main__":
     # Test the Brain
-    generate_script("Discipline")
+    generate_script("Discipline.")
+    
